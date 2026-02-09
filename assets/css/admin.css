@@ -1,0 +1,103 @@
+/* Meta Boxes */
+
+.cpc-meta-box-field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: 12px;
+  max-width: 450px;
+}
+
+.cpc-meta-box-field:first-child {
+  margin-top: 0;
+}
+
+/* Parish Setup Guide Page */
+
+.cpc-setup-guide {
+  font-size: 16px;
+  padding: 12px;
+}
+
+.cpc-setup-guide header,
+.cpc-setup-guide footer {
+  background-color: rgb(226, 226, 226);
+  border-radius: 4px;
+  padding: 20px;
+  display: flex;
+}
+
+.cpc-setup-guide header {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.cpc-setup-guide header > h1,
+.cpc-setup-guide header > p {
+  margin-top: 0;
+}
+
+.cpc-setup-guide header > p {
+  max-width: 700px;
+}
+
+.cpc-setup-guide header,
+.cpc-setup-guide main,
+.cpc-setup-guide footer {
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.cpc-setup-guide footer {
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.cpc-setup-guide nav,
+.cpc-setup-guide footer {
+  margin-top: 24px;
+}
+
+.cpc-setup-guide nav,
+.cpc-setup-guide section {
+  padding: 6px 0 22px 0;
+}
+
+.cpc-setup-guide h1 {
+  font-size: 38px;
+}
+
+.cpc-setup-guide h2 {
+  font-size: 28px;
+}
+
+.cpc-setup-guide h3 {
+  font-size: 20px;
+}
+
+.cpc-setup-guide h1,
+.cpc-setup-guide h2,
+.cpc-setup-guide h3 {
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 18px 0;
+}
+
+.cpc-setup-guide p {
+  font-size: 16px;
+}
+
+.cpc-setup-guide .cpc-setup-guide-subtext {
+  font-size: 15px;
+}
+
+.cpc-setup-guide ul {
+  list-style: disc;
+  margin-left: 32px;
+}
+
+.cpc-setup-guide em {
+  font-style: italic;
+}
