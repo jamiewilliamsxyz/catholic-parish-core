@@ -49,7 +49,8 @@ function cpc_enqueue_admin_styles()
     $post_type !== "cpc_service" &&
     $post_type !== "cpc_staff_member" &&
     $post_type !== "cpc_church_group" &&
-    $screen->id !== "toplevel_page_parish-setup-guide"
+    $screen->id !== "toplevel_page_parish-setup-guide" &&
+    $screen->id !== "settings_page_cpc-parish-details"
   ) {
     return;
   }
