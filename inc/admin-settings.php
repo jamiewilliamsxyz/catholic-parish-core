@@ -31,7 +31,7 @@ function cpc_render_parish_details_settings_page()
     <header>
       <h1><?php echo esc_html(get_admin_page_title()); ?></h1>
       <p>
-        <?php esc_html_e("The parish details you enter below can be displayed via shortcodes. Additionally, if you have installed the Catholic Parish theme, the details will also appear in the Contact Page template details card and the footer.", "catholic-parish-core"); ?>
+        <?php esc_html_e("The parish details you enter below can be displayed via shortcodes. Additionally, if you have installed the Catholic Parish theme, the details will also appear in the Contact Page template details card.", "catholic-parish-core"); ?>
       </p>
     </header>
 
