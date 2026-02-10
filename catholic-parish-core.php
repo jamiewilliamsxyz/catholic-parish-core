@@ -27,11 +27,14 @@ define("CPC_VERSION", "1.0.0");
 require_once CPC_PATH . "inc/cpts.php";
 require_once CPC_PATH . "inc/taxonomies.php";
 require_once CPC_PATH . "inc/meta-boxes.php";
-require_once CPC_PATH . "inc/admin-hooks.php";
 require_once CPC_PATH . "inc/frontend-hooks.php";
 require_once CPC_PATH . "inc/contact-form-handler.php";
-require_once CPC_PATH . "inc/admin-settings.php";
 require_once CPC_PATH . "inc/shortcodes.php";
+
+if (is_admin()) {
+  require_once CPC_PATH . "inc/admin-hooks.php";
+  require_once CPC_PATH . "inc/admin-settings.php";
+}
 
 // Activation Hook
 register_activation_hook(__FILE__, "cpc_activate_plugin");
