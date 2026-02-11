@@ -12,22 +12,19 @@
   margin-top: 0;
 }
 
-/* Parish Setup Guide Page & Parish Details Settings Page */
+/* Parish Details Settings Page */
 
 .cpc-details-settings-page .form-table > tbody > tr > td > input,
 .cpc-details-settings-page .form-table > tbody > tr > td > textarea {
   width: 300px;
 }
 
-.cpc-setup-guide,
 .cpc-details-settings-page {
   font-size: 16px;
   padding: 12px;
 }
 
-.cpc-setup-guide header,
 .cpc-details-settings-page header,
-.cpc-setup-guide footer,
 .cpc-details-settings-page footer {
   background-color: rgb(226, 226, 226);
   border-radius: 4px;
@@ -35,96 +32,71 @@
   display: flex;
 }
 
-.cpc-setup-guide header,
 .cpc-details-settings-page header {
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
 
-.cpc-setup-guide header > h1,
 .cpc-details-settings-page header > h1,
-.cpc-setup-guide header > p,
 .cpc-details-settings-page header > p {
   margin-top: 0;
 }
 
-.cpc-setup-guide header > p,
 .cpc-details-settings-page header > p {
   max-width: 700px;
 }
 
-.cpc-setup-guide header,
 .cpc-details-settings-page header,
-.cpc-setup-guide main,
 .cpc-details-settings-page main,
-.cpc-setup-guide footer,
 .cpc-details-settings-page footer {
   max-width: 780px;
   margin: 0 auto;
 }
 
-.cpc-setup-guide footer,
 .cpc-details-settings-page footer {
   justify-content: space-evenly;
   flex-wrap: wrap;
   gap: 12px;
 }
 
-.cpc-setup-guide nav,
-.cpc-setup-guide footer,
 .cpc-details-settings-page footer,
 .cpc-details-settings-page main > section:first-child {
   margin-top: 24px;
 }
 
-.cpc-setup-guide nav,
-.cpc-setup-guide section,
 .cpc-details-settings-page section {
   padding: 6px 0 22px 0;
 }
 
-.cpc-setup-guide h1,
 .cpc-details-settings-page h1 {
   font-size: 38px;
 }
 
-.cpc-setup-guide h2,
 .cpc-details-settings-page h2 {
   font-size: 28px;
 }
 
-.cpc-setup-guide h3 {
-  font-size: 20px;
-}
-
-.cpc-setup-guide h1,
 .cpc-details-settings-page h1,
-.cpc-setup-guide h2,
-.cpc-details-settings-page h2,
-.cpc-setup-guide h3 {
+.cpc-details-settings-page h2 {
   font-weight: 600;
   line-height: 1.2;
   margin: 18px 0;
 }
 
-.cpc-setup-guide p,
 .cpc-details-settings-page p {
   font-size: 16px;
 }
 
-.cpc-setup-guide .cpc-setup-guide-subtext,
 .cpc-details-settings-page .cpc-details-settings-section-subtext {
   font-size: 15px;
 }
 
-.cpc-setup-guide ul,
 .cpc-details-settings-page ul {
   list-style: disc;
   margin-left: 32px;
 }
 
-.cpc-setup-guide em,
 .cpc-details-settings-page em {
   font-style: italic;
 }
