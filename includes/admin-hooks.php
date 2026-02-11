@@ -62,3 +62,25 @@ function cpc_enqueue_admin_styles()
     CPC_VERSION
   );
 }
+
+// Admin Notice
+
+add_action("admin_notices", "cpc_notify_admin");
+
+function cpc_notify_admin()
+{
+  if (wp_get_theme()->get("TextDomain") !== "catholic-parish-wordpress-theme") :
+?>
+    <div class="notice notice-warning">
+      <p>
+        <?php echo wp_kses_post(__(
+          '<strong>Catholic Parish Core</strong><br />
+          This plugin is a companion plugin for the Catholic Parish theme.<br />
+          <a href="https://github.com/jamiewilliamsxyz/catholic-parish-wordpress-theme" rel="noopener" target="_blank">Download the theme here</a>',
+          "catholic-parish-core"
+        ));
+        ?>
+      </p>
+    </div>
+<?php endif;
+}
