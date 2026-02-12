@@ -1,0 +1,573 @@
+# Copyright (C) 2026 Jamie Williams
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Catholic Parish Core 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/catholic-parish-core\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-02-12T18:56:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: catholic-parish-core\n"
+
+#. Plugin Name of the plugin
+#: catholic-parish-core.php
+msgid "Catholic Parish Core"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: catholic-parish-core.php
+msgid "https://github.com/jamiewilliamsxyz/catholic-parish-core"
+msgstr ""
+
+#. Description of the plugin
+#: catholic-parish-core.php
+msgid "A WordPress companion plugin that holds the functionality and logic for the catholic-parish-wordpress-theme. Designed for local Catholic parishes to manage mass times, announcements, parish information and more with minimal complexity"
+msgstr ""
+
+#. Author of the plugin
+#: catholic-parish-core.php
+msgid "Jamie Williams"
+msgstr ""
+
+#. Author URI of the plugin
+#: catholic-parish-core.php
+msgid "https://github.com/jamiewilliamsxyz"
+msgstr ""
+
+#: includes/admin-hooks.php:15
+msgid "Enter Service Name"
+msgstr ""
+
+#: includes/admin-hooks.php:18
+msgid "Enter Announcement Title"
+msgstr ""
+
+#: includes/admin-hooks.php:21
+msgid "Enter Newsletter Name"
+msgstr ""
+
+#: includes/admin-hooks.php:24
+msgid "Enter Parish Staff Member Name"
+msgstr ""
+
+#: includes/admin-hooks.php:27
+msgid "Enter Church Group Name"
+msgstr ""
+
+#: includes/admin-hooks.php:76
+msgid ""
+"<strong>Catholic Parish Core</strong><br />\n"
+"          This plugin is a companion plugin for the Catholic Parish theme.<br />\n"
+"          <a href=\"https://github.com/jamiewilliamsxyz/catholic-parish-wordpress-theme\" rel=\"noopener\" target=\"_blank\">Download the theme here</a>"
+msgstr ""
+
+#: includes/admin-settings.php:15
+#: includes/admin-settings.php:16
+#: includes/admin-settings.php:85
+msgid "Parish Details"
+msgstr ""
+
+#: includes/admin-settings.php:34
+msgid "The parish details you enter below can be displayed via shortcodes. Additionally, if you have installed the Catholic Parish theme, the details will also appear in the Contact Page template details card."
+msgstr ""
+
+#: includes/admin-settings.php:44
+msgid "Save Parish Details"
+msgstr ""
+
+#: includes/admin-settings.php:52
+msgid "Available Shortcodes"
+msgstr ""
+
+#: includes/admin-settings.php:59
+msgid "inserts all the above details"
+msgstr ""
+
+#: includes/admin-settings.php:62
+msgid "Shortcodes allow you to add parish details into pages or posts via the editor."
+msgstr ""
+
+#: includes/admin-settings.php:69
+msgid "Plugin GitHub repository"
+msgstr ""
+
+#: includes/admin-settings.php:70
+msgid "Theme GitHub repository"
+msgstr ""
+
+#: includes/admin-settings.php:93
+msgid "Enter your parish details below."
+msgstr ""
+
+#: includes/admin-settings.php:108
+msgid "Phone Number"
+msgstr ""
+
+#: includes/admin-settings.php:138
+msgid "Email Address"
+msgstr ""
+
+#: includes/admin-settings.php:168
+msgid "Church Address"
+msgstr ""
+
+#: includes/admin-settings.php:181
+msgid "Church Street, Springfield"
+msgstr ""
+
+#: includes/admin-settings.php:197
+msgid "Office Address"
+msgstr ""
+
+#: includes/admin-settings.php:210
+msgid "Office Street, Springfield"
+msgstr ""
+
+#: includes/admin-settings.php:227
+msgid "Office Opening Hours"
+msgstr ""
+
+#: includes/admin-settings.php:240
+#: includes/meta-boxes.php:179
+msgid "Monday"
+msgstr ""
+
+#: includes/admin-settings.php:240
+msgid "Friday"
+msgstr ""
+
+#: includes/cpts.php:14
+msgctxt "post type general name"
+msgid "Services"
+msgstr ""
+
+#: includes/cpts.php:15
+msgctxt "post type singular name"
+msgid "Service"
+msgstr ""
+
+#: includes/cpts.php:16
+#: includes/cpts.php:40
+#: includes/cpts.php:66
+#: includes/cpts.php:92
+#: includes/cpts.php:118
+msgid "Add New"
+msgstr ""
+
+#: includes/cpts.php:17
+msgid "Add New Service"
+msgstr ""
+
+#: includes/cpts.php:18
+#: includes/cpts.php:42
+#: includes/cpts.php:68
+#: includes/cpts.php:94
+#: includes/cpts.php:120
+msgid "Edit"
+msgstr ""
+
+#: includes/cpts.php:19
+msgid "Edit Service"
+msgstr ""
+
+#: includes/cpts.php:20
+msgid "New Service"
+msgstr ""
+
+#: includes/cpts.php:21
+#: includes/cpts.php:45
+#: includes/cpts.php:71
+#: includes/cpts.php:97
+#: includes/cpts.php:123
+msgid "View"
+msgstr ""
+
+#: includes/cpts.php:22
+msgid "View Service"
+msgstr ""
+
+#: includes/cpts.php:23
+msgid "Search Services"
+msgstr ""
+
+#: includes/cpts.php:24
+msgid "No Services found"
+msgstr ""
+
+#: includes/cpts.php:25
+msgid "No Services found in Trash"
+msgstr ""
+
+#: includes/cpts.php:26
+msgid "Parent Service:"
+msgstr ""
+
+#: includes/cpts.php:31
+msgid "Parish services"
+msgstr ""
+
+#: includes/cpts.php:38
+msgctxt "post type general name"
+msgid "Announcements"
+msgstr ""
+
+#: includes/cpts.php:39
+msgctxt "post type singular name"
+msgid "Announcement"
+msgstr ""
+
+#: includes/cpts.php:41
+msgid "Add New Announcement"
+msgstr ""
+
+#: includes/cpts.php:43
+msgid "Edit Announcement"
+msgstr ""
+
+#: includes/cpts.php:44
+msgid "New Announcement"
+msgstr ""
+
+#: includes/cpts.php:46
+msgid "View Announcement"
+msgstr ""
+
+#: includes/cpts.php:47
+msgid "Search Announcements"
+msgstr ""
+
+#: includes/cpts.php:48
+msgid "No Announcements found"
+msgstr ""
+
+#: includes/cpts.php:49
+msgid "No Announcements found in Trash"
+msgstr ""
+
+#: includes/cpts.php:50
+msgid "Parent Announcement:"
+msgstr ""
+
+#: includes/cpts.php:55
+msgid "Parish announcements and notices"
+msgstr ""
+
+#: includes/cpts.php:64
+msgctxt "post type general name"
+msgid "Newsletters"
+msgstr ""
+
+#: includes/cpts.php:65
+msgctxt "post type singular name"
+msgid "Newsletter"
+msgstr ""
+
+#: includes/cpts.php:67
+msgid "Add New Newsletter"
+msgstr ""
+
+#: includes/cpts.php:69
+msgid "Edit Newsletter"
+msgstr ""
+
+#: includes/cpts.php:70
+msgid "New Newsletter"
+msgstr ""
+
+#: includes/cpts.php:72
+msgid "View Newsletter"
+msgstr ""
+
+#: includes/cpts.php:73
+msgid "Search Newsletters"
+msgstr ""
+
+#: includes/cpts.php:74
+msgid "No Newsletters found"
+msgstr ""
+
+#: includes/cpts.php:75
+msgid "No Newsletters found in Trash"
+msgstr ""
+
+#: includes/cpts.php:76
+msgid "Parent Newsletter:"
+msgstr ""
+
+#: includes/cpts.php:81
+msgid "Parish newsletters"
+msgstr ""
+
+#: includes/cpts.php:90
+msgctxt "post type general name"
+msgid "Parish Staff"
+msgstr ""
+
+#: includes/cpts.php:91
+msgctxt "post type singular name"
+msgid "Parish Staff Member"
+msgstr ""
+
+#: includes/cpts.php:93
+msgid "Add New Parish Staff Member"
+msgstr ""
+
+#: includes/cpts.php:95
+msgid "Edit Parish Staff Member"
+msgstr ""
+
+#: includes/cpts.php:96
+msgid "New Parish Staff Member"
+msgstr ""
+
+#: includes/cpts.php:98
+msgid "View Parish Staff Member"
+msgstr ""
+
+#: includes/cpts.php:99
+msgid "Search Parish Staff"
+msgstr ""
+
+#: includes/cpts.php:100
+msgid "No Parish Staff found"
+msgstr ""
+
+#: includes/cpts.php:101
+msgid "No Parish Staff found in Trash"
+msgstr ""
+
+#: includes/cpts.php:102
+msgid "Parent Parish Staff Member:"
+msgstr ""
+
+#: includes/cpts.php:107
+msgid "Information about parish staff and clergy members"
+msgstr ""
+
+#: includes/cpts.php:116
+msgctxt "post type general name"
+msgid "Church Groups"
+msgstr ""
+
+#: includes/cpts.php:117
+msgctxt "post type singular name"
+msgid "Church Group"
+msgstr ""
+
+#: includes/cpts.php:119
+msgid "Add New Church Group"
+msgstr ""
+
+#: includes/cpts.php:121
+msgid "Edit Church Group"
+msgstr ""
+
+#: includes/cpts.php:122
+msgid "New Church Group"
+msgstr ""
+
+#: includes/cpts.php:124
+msgid "View Church Group"
+msgstr ""
+
+#: includes/cpts.php:125
+msgid "Search Church Groups"
+msgstr ""
+
+#: includes/cpts.php:126
+msgid "No Church Groups found"
+msgstr ""
+
+#: includes/cpts.php:127
+msgid "No Church Groups found in Trash"
+msgstr ""
+
+#: includes/cpts.php:128
+msgid "Parent Church Group:"
+msgstr ""
+
+#: includes/cpts.php:133
+msgid "Information about the parish groups"
+msgstr ""
+
+#: includes/meta-boxes.php:55
+msgid "PDF File URL"
+msgstr ""
+
+#: includes/meta-boxes.php:73
+msgid "Role"
+msgstr ""
+
+#: includes/meta-boxes.php:77
+msgid "Assistant Priest"
+msgstr ""
+
+#: includes/meta-boxes.php:82
+msgid "About"
+msgstr ""
+
+#: includes/meta-boxes.php:86
+msgid "Brief bio of the staff/clergy member"
+msgstr ""
+
+#: includes/meta-boxes.php:90
+msgid "Email"
+msgstr ""
+
+#: includes/meta-boxes.php:95
+msgid "Phone"
+msgstr ""
+
+#: includes/meta-boxes.php:116
+msgid "Leader Name"
+msgstr ""
+
+#: includes/meta-boxes.php:121
+msgid "Leader Email"
+msgstr ""
+
+#: includes/meta-boxes.php:126
+msgid "Leader Phone"
+msgstr ""
+
+#: includes/meta-boxes.php:131
+#: includes/meta-boxes.php:169
+msgid "Description"
+msgstr ""
+
+#: includes/meta-boxes.php:135
+msgid "Description of the church group"
+msgstr ""
+
+#: includes/meta-boxes.php:139
+msgid "Meeting Time"
+msgstr ""
+
+#: includes/meta-boxes.php:143
+msgid "every Tuesday"
+msgstr ""
+
+#: includes/meta-boxes.php:148
+msgid "Location"
+msgstr ""
+
+#: includes/meta-boxes.php:152
+msgid "Church hall"
+msgstr ""
+
+#: includes/meta-boxes.php:173
+msgid "Description and information about the service"
+msgstr ""
+
+#: includes/meta-boxes.php:180
+msgid "Saturday"
+msgstr ""
+
+#: includes/meta-boxes.php:181
+msgid "Sunday"
+msgstr ""
+
+#: includes/meta-boxes.php:186
+msgid "Occurrences"
+msgstr ""
+
+#: includes/shortcodes.php:9
+msgid "Not Provided"
+msgstr ""
+
+#: includes/taxonomies.php:12
+msgctxt "taxonomy general name"
+msgid "Church Group Types"
+msgstr ""
+
+#: includes/taxonomies.php:13
+msgctxt "taxonomy singular name"
+msgid "Church Group Type"
+msgstr ""
+
+#: includes/taxonomies.php:14
+msgid "Search Church Group Types"
+msgstr ""
+
+#: includes/taxonomies.php:15
+msgid "All Church Group Types"
+msgstr ""
+
+#: includes/taxonomies.php:16
+msgid "Edit Church Group Type"
+msgstr ""
+
+#: includes/taxonomies.php:17
+msgid "Update Church Group Type"
+msgstr ""
+
+#: includes/taxonomies.php:18
+msgid "Add New Church Group Type"
+msgstr ""
+
+#: includes/taxonomies.php:19
+msgid "New Church Group Type Name"
+msgstr ""
+
+#: includes/taxonomies.php:20
+msgid "No Church Group Types found"
+msgstr ""
+
+#: includes/taxonomies.php:21
+msgid "Church Group Types"
+msgstr ""
+
+#: includes/taxonomies.php:27
+msgid "Used to categorise church groups e.g. Youth, Choir, Bible Study"
+msgstr ""
+
+#: includes/taxonomies.php:34
+msgctxt "taxonomy general name"
+msgid "Parish Staff Types"
+msgstr ""
+
+#: includes/taxonomies.php:35
+msgctxt "taxonomy singular name"
+msgid "Parish Staff Type"
+msgstr ""
+
+#: includes/taxonomies.php:36
+msgid "Search Parish Staff Types"
+msgstr ""
+
+#: includes/taxonomies.php:37
+msgid "All Parish Staff Types"
+msgstr ""
+
+#: includes/taxonomies.php:38
+msgid "Edit Parish Staff Type"
+msgstr ""
+
+#: includes/taxonomies.php:39
+msgid "Update Parish Staff Type"
+msgstr ""
+
+#: includes/taxonomies.php:40
+msgid "Add New Parish Staff Type"
+msgstr ""
+
+#: includes/taxonomies.php:41
+msgid "New Parish Staff Type Name"
+msgstr ""
+
+#: includes/taxonomies.php:42
+msgid "No Parish Staff Types found"
+msgstr ""
+
+#: includes/taxonomies.php:43
+msgid "Parish Staff Types"
+msgstr ""
+
+#: includes/taxonomies.php:49
+msgid "Used to categorise parish staff members e.g. Clergy or Non-Clergy"
+msgstr ""
