@@ -65,8 +65,8 @@ This project is a **companion WordPress plugin** built to provide the core featu
 
 ### Add Parish Staff - Custom Post Type Admin UI
 
-<img src="./assets/images/screenshots/add-parish-staff.png" alt="Admin UI for adding a Parish Staff custom post type with custom meta boxes" width="800" />
+<img src="./assets/images/add-parish-staff.png" alt="Admin UI for adding a Parish Staff custom post type with custom meta boxes" width="800" />
 
 ### Parish Details - Custom Settings Page
 
-<img src="./assets/images/screenshots/parish-details-settings.png" alt="Custom admin settings page for entering Parish Details" width="600" />
+<img src="./assets/images/parish-details-settings.png" alt="Custom admin settings page for entering Parish Details" width="600" />
